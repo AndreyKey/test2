@@ -1,8 +1,10 @@
 package com.pets.controllers.rest;
 
+import com.pets.model.dao.Food;
 import com.pets.model.dto.PetsArray;
 import com.pets.model.dto.ResultDto;
 import com.pets.service.impl.PetsService;
+import org.hibernate.Hibernate;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
